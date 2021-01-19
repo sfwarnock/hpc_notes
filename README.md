@@ -25,7 +25,7 @@
 </div>
 
 <div align="center">
-<img src="Class Notes - MPI_Ranks Application.png" class="center">
+<img src="Class Notes - MPI_Ranks Applicaton.png" class="center">
 </div>
 
 <div align="center">
