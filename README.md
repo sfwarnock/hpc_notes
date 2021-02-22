@@ -31,3 +31,11 @@
 <div align="center">
 <img src="Class Notes - VA to PA(1).png" class="center">
 </div>
+
+<div align="center">
+<img src="Class Notes - .png" class="center">
+</div>
+
+<div align="center">
+<img src="Class Notes - VA to PA(1).png" class="center">
+</div>
