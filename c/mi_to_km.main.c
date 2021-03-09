@@ -10,7 +10,7 @@
 
 main()
 {
-    int mile, kilometer;
+    float mile, kilometer;
     int lower, upper, step;
     
     lower = 0;
@@ -20,7 +20,7 @@ main()
     mile = lower;
     while ( mile <= upper){
         kilometer = mile * 1.60934;
-        printf("%d\t%d\n", mile, kilometer);
+        printf("%3.0f\t%4.1f\n", mile, kilometer);
         mile = mile + step;
     }
 }
