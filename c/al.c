@@ -11,19 +11,20 @@
 main()
 {
     int p, upper, lower, step;
-    float f, speedup;
+    float f, speedupA, speedupG;
     
-    lower = 0;
-    upper = 32;
+    lower = 1;
+    upper = 2048;
     step = 2;
-    f = .75;
+    f = .50;
     
     p = lower;
-    printf("Nodes\tSpeedup\n");
+    printf("Nodes\t\tSpeedup-Strong\t\tSpeedup-Weak\n");
     while (p <= upper){
-        speedup = 1 / ((1 - f) + (f / p));
-        printf("%d\t\t%3.4f\n", p, speedup);
-        p += step;
+        speedupA = 1 / ((1 - f) + (f / p));
+        speedupG = p + (1 - p) * f;
+        printf("%d\t\t\t%3.4f\t\t\t\t%3.4f\n", p, speedupA, speedupG);
+        p = p * step;
     }
     
 }
